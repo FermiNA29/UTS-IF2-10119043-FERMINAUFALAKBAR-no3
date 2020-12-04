@@ -9,16 +9,16 @@ package uts.if2.pkg10119043.ferminaufalakbar.no3;
  *
  * @author FERMI
  */
-public class Rnb implements Jazz, Blues{
+public class Rnb extends MusicGenre implements Jazz, Blues{
 
     @Override
     public void genreJazz(String artistName) {
-        System.out.print(artistName);
+        System.out.print(artistName + "adalah musisi Blues");
     }
 
     @Override
     public void genreBlues(String artistName) {
-        System.out.print(artistName);
+        System.out.print(artistName + "adalah musisi Jazz");
     }
     
 }
